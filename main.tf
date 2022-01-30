@@ -1,3 +1,8 @@
+provider "google" {
+  project     = "fast-blueprint-339802"
+  region      = "us-west1 (Oregon)"
+}
+
 resource "google_storage_bucket" "static-site" {
   name          = "adi_first bucket"
   location      = "us-west1 (Oregon)"
