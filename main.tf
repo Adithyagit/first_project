@@ -1,11 +1,11 @@
 provider "google" {
   project     = "fast-blueprint-339802"
-  region      = "us-west1 (Oregon)"
+  region      = "us-west1"
 }
 
 resource "google_storage_bucket" "static-site" {
-  name          = "adi_first bucket"
-  location      = "us-west1 (Oregon)"
+  name          = "adi_first_bucket"
+  location      = "us-west1"
   force_destroy = true
 
   uniform_bucket_level_access = true
